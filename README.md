@@ -6,6 +6,7 @@ System Architecture
 
 The system consists of multiple ESP32 nodes performing dedicated roles. Sensor nodes collect environmental parameters, relay-capable nodes extend communication range through BLE mesh forwarding, the gateway node bridges local wireless communication with cloud connectivity, and the actuator node executes commands triggered remotely through the cloud interface.
 
+![System Architecture](system_architecture.png)
 ## Hardware Used
 
 * ESP32 development boards
