@@ -13,6 +13,13 @@ The system consists of multiple ESP32 nodes performing dedicated roles. Sensor n
 * DHT sensor
 * Relay module
 
+## Repository Structure
+
+* gateway_node: BLE mesh gateway and cloud communication
+* sensor_node: DHT11 sensing and BLE mesh publishing
+* relay_node: BLE mesh packet forwarding
+* actuator_node: BLE mesh command reception and GPIO control
+
 ## Features
 
 * BLE mesh-based multi-node communication
@@ -24,9 +31,3 @@ The system consists of multiple ESP32 nodes performing dedicated roles. Sensor n
 ## Applications
 
 This type of architecture can be extended for smart homes, industrial monitoring, greenhouse automation, and distributed sensor networks.
-## Repository Structure
-
-* gateway_node: BLE mesh gateway and cloud communication
-* sensor_node: DHT11 sensing and BLE mesh publishing
-* relay_node: BLE mesh packet forwarding
-* actuator_node: BLE mesh command reception and GPIO control
